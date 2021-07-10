@@ -36,7 +36,7 @@ function totalPrices() {
     const numero = parseFloat(stringTratada);
     sumOfPrices += numero;
   });
-  priceTag.innerText = sumOfPrices;  
+  priceTag.innerText = sumOfPrices.toFixed(2);  
 }
 
 function cartItemClickListener(event) {
